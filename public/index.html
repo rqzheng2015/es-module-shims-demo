@@ -25,9 +25,9 @@
     </script>
     <script type="module">
         import react from "react";
-        console.log("react", react);
+        console.log("react useMemo", react.memo);
         var scriptTextElement = document.querySelector('#scriptText');
-        scriptTextElement.innerText = react?.useMemo?.toString();
+        scriptTextElement.innerText = react.useMemo.toString();
     </script>
 </head>
 <body></body>
